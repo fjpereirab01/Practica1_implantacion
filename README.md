@@ -144,7 +144,7 @@ config.vm.define :servidor_apache do |fjapache|
   fjapache.vm.network "private_network", ip: "192.168.30.10"
   fjapache.vm.network "forwarded_port", guest: 80, host: 8080
 ```
-![Captura de pantallla de la configuracion de la maquina apache](configuración_maquina_apache.png)
+![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/configuracion_maquina_apache.png)
 
 - **IP privada:** `192.168.30.10`  
 - **Puerto 8080 del host** → se conecta al **puerto 80 del invitado** (Apache).  
