@@ -180,6 +180,7 @@ que:
    - Base de datos: `iawdb`  
    - Usuario: `iawuser`  
    - Contraseña: `iawpass`
+![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/script_apache.png)
 
 ---
 
@@ -194,6 +195,8 @@ config.vm.define :db do |fjdb|
   fjdb.vm.hostname = "fjdb"
   fjdb.vm.network "private_network", ip: "192.168.30.11"
 ```
+![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/configuracion_maquina_mariadb.png)
+
 
 - **IP privada:** `192.168.30.11`
 
@@ -228,6 +231,9 @@ que:
 5. Crea el usuario `iawuser` con permisos sobre esa base.  
 6. Importa los datos iniciales desde `database.sql`.  
 7. Elimina la ruta por defecto de red para **evitar acceso a Internet** desde la VM (seguridad).
+![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/script_mariadb.png)
+![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/script_datos.png)
+
 
 ---
 
