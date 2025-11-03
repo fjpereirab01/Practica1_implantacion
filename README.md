@@ -319,6 +319,9 @@ vagrant up
 ```
 
 - La aplicación web estará disponible en:  
-   [http://localhost:8080](http://localhost:8080)  
+   [http://localhost:8080](http://localhost:8080)
+  ![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/DB.png)
+  ![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/usuario.png)
+  ![Captura de pantallla de la configuracion de la maquina apache](practica1/captura_de_pantalla/db_actualizada.png)
 - Apache servirá los archivos PHP.  
 - MariaDB estará lista y conectada a la app.  
